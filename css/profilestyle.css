@@ -1,0 +1,24 @@
+body {
+    background:#f0f8ff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font: 32px Garamond, Helvetica, serif;    
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+    
+    }
+
+nav {
+    margin: 10px;
+}    
+.image {
+    border: 10px groove cornflowerblue;
+}
+#about {
+    border:
+}

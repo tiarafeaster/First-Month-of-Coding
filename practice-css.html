@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Practice: CSS Corner Cafe</title>
+    </* Please excuse the aesthetics. I'm just getting my practice on */>
+    <link rel="stylesheet" href="css/practice-styles.css" />
+</head>
+<body>
+    <h1>CSS Corner Cafe</h1>
+    <section class="brekkie">
+        <h3>Breakfast Menu</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Coffee*</td>
+                    <td>$4</td>
+                </tr>
+                <tr>
+                    <td>Tea</td>
+                    <td>$2.50</td>
+                </tr>
+                <tr>
+                    <td>Chicken & Waffles</td>
+                    <td>$12</td>
+                </tr>
+                <tr>
+                    <td>Blueberry Pancakes</td>
+                    <td>$6</td>
+                </tr>
+                <tr>
+                    <td>Muffin</td>
+                    <td>$2</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>$.50</td>
+                </tr>
+    </section>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h5>*All of our coffee is proudly sourced from women owned farms*</h5>
+    </section>
+    <section class="lunchtime">
+        <h3>Lunch Menu</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Item</th>
+                        <th> Cost</th>
+                    </tr>
+                </thead>
+                <body>
+                    <tr>
+                        <td>Caesar Wrap</td>
+                        <td>$7</td>
+                    </tr>
+                    <tr>
+                        <td>Tuna Melt</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Turkey Club</td>
+                        <td>$7</td>
+                    </tr>
+                </body>
+            </table>
+    </section>
+    <section>
+        <h2>Submit Your Review </h2>
+        <h4> If you want, no pressure</h4>
+        <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="rating">Your Rating:</label>
+            1 <input type="range" id="rating" name="rating" min="1" max="5" /> 5
+            <div> Favorite Lunch Item</div>
+            <input type="radio" id="caesar wrap" name="lunch" value="caesar wrap"/>
+            <label for="caesar wrap">Caesar Wrap</label>
+            <input type="radio" id="tuna melt" name="lunch" value="tuna melt" />
+            <label for="tuna melt">Tuna Melt</label>
+            <input type="radio" id="turley club" name="lunch" value="turkey club" />
+            <label for="turkey club">Turkey Club</label>
+            <input type="submit" id="submit-btn" />
+        </form>
+    </section>
+    <section class="contact">
+        <h3>Contact Us:</h3>
+        <p>Call us at: <a href="tel:+15555551212">1-555-555-1212</a></p>
+        <p>For bookings, please email Tiara at <a href="email:tiara@cornercafe.com"> tiara@cornercafe.com</a></p>
+        <address>
+            CSS Corner Cafe<br />
+            101 W Main St<br />
+            Bellevue, WA 98004
+        </address>
+    </section>
+</body>
+</html>

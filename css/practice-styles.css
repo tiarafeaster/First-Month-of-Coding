@@ -1,0 +1,47 @@
+body {
+    background:#f0f8ff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font: 32px Garamond, Helvetica, serif;
+}
+
+.brekkie {
+    width: 40%;
+    border: 5px dotted black;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 12px 13px 20px 30px;
+    background-color: #e6e6fa;
+}
+.lunchtime{
+    width: 20%;
+    border: groove 10px #ff1493;
+    margin: 12px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    width: 30%;
+    margin: auto;
+    border: 5px dotted black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff69b4;
+}
+thead {
+    text-align: left;
+}
+
+label {
+    display: block;
+}
+
+#submit-btn {
+    display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: greenyellow;
+
+}
